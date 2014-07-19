@@ -73,7 +73,7 @@ dependencies[] = commerce_option_set_reference
 dependencies[] = date
 dependencies[] = date_api
 dependencies[] = date_views
-dependencies[] = views_between_dates_filter
+;dependencies[] = views_between_dates_filter
 
 ; Chroma - development
 ;dependencies[] = devel
