@@ -88,6 +88,10 @@ projects[devel][subdir] = "contrib"
 projects[commerce][version] = 1.9
 projects[commerce][subdir] = "contrib"
 
+;Email
+projects[email][version] = 1.3
+projects[email][subdir] = "contrib"
+
 ;Entity API
 projects[entity][version] = 1.5
 projects[entity][subdir] = "contrib"
@@ -137,8 +141,8 @@ projects[inline_entity_form][version] = 1.5
 projects[inline_entity_form][subdir] = "contrib"
 
 ;Job Scheduler
-projects[job_scheduler][version] = 2.0-alpha3
-projects[job_scheduler][subdir] = "contrib"
+;projects[job_scheduler][version] = 2.0-alpha3
+;projects[job_scheduler][subdir] = "contrib"
 
 ;JQuery Update
 projects[jquery_update][version] = 2.4
