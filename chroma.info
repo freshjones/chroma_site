@@ -81,6 +81,9 @@ dependencies[] = date_views
 ; Chroma - eck
 dependencies[] = eck
 
+; Chroma - features
+dependencies[] = features
+
 ; Chroma - fields
 dependencies[] = addressfield
 dependencies[] = computed_field
