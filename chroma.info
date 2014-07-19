@@ -170,3 +170,5 @@ dependencies[] = views_field_view
 dependencies[] = views_php
 dependencies[] = views_ui
 
+; Chroma - features
+dependencies[] = chroma_template_defaults
