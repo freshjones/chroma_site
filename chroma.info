@@ -129,7 +129,7 @@ dependencies[] = panels_mini
 dependencies[] = panelizer
 dependencies[] = panels
 dependencies[] = panels_everywhere
-dependencies[] = panels_responsive_tabs_to_accordion
+;dependencies[] = panels_responsive_tabs_to_accordion
 dependencies[] = semantic_panels
 
 ; Chroma - performance
