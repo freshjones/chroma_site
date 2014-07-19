@@ -97,6 +97,9 @@ function chroma_install() {
     variable_set('page_manager_node_view_disabled', 0);
     variable_set('page_manager_term_view_disabled', 0);
     
+    //features directory
+    variable_set('features_default_export_path', 'sites/all/modules/custom');
+    
     // Create an editor role
     //$editor_role = new stdClass();
     //$editor_role->name = 'editor';

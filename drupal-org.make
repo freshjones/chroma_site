@@ -309,6 +309,19 @@ projects[wysiwyg][version] = 2.2
 projects[wysiwyg][subdir] = "contrib"
 
 
+
+; FEATURES
+; --------
+
+;chroma template defaults
+projects[chroma_template_defaults][type] = "module"
+projects[chroma_template_defaults][download][type] = "git"
+projects[chroma_template_defaults][download][url] = "https://github.com/freshjones/chroma_panels_templates_feature.git"
+projects[chroma_template_defaults][subdir] = "custom"
+
+
+
+
 ; Themes
 ; --------
 projects[] = omega
