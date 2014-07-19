@@ -249,8 +249,8 @@ projects[semantic_panels][version] = 1.2
 projects[semantic_panels][subdir] = "contrib"
 
 ;Serialized Fields
-projects[serialized_fields][version] = 1.0-beta1
-projects[serialized_fields][subdir] = "contrib"
+projects[serialized_field][version] = 1.0-beta1
+projects[serialized_field][subdir] = "contrib"
 
 ;Strongarm
 projects[strongarm][version] = 2.0
