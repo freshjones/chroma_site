@@ -8,19 +8,19 @@ api = 2
 ; Projects
 ; --------
 
-
+;Address Field
 projects[addressfield][version] = 1.0-beta5
 projects[addressfield][subdir] = "contrib"
 ; See http://drupal.org/node/968112#comment-6581524
 projects[addressfield][patch][] = "https://drupal.org/files/issues/addressfield-nocountry_option-968112-132_1.0-beta4.patch"
 
-; Admin
+;Admin Menu
 projects[admin_menu][version] = 3.0-rc4
 projects[admin_menu][subdir] = "contrib"
 ; fixes JS error: http://drupal.org/node/1892074
 projects[admin_menu][patch][] = "http://drupal.org/files/issues/admin_menu-remove-ie6-support-1892074-5.patch"
 
-; Admin
+;Admin Views
 projects[admin_views][version] = 1.3
 projects[admin_views][subdir] = "contrib"
 
@@ -299,6 +299,11 @@ projects[views_php][subdir] = "contrib"
 ;WYSIWYG
 projects[wysiwyg][version] = 2.2
 projects[wysiwyg][subdir] = "contrib"
+
+
+; Themes
+; --------
+projects[] = omega
 
 
 ; Drush
