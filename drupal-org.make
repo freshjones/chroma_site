@@ -73,6 +73,10 @@ projects[commerce_views_display][version] = 1.0
 projects[commerce_views_display][subdir] = "contrib"
 
 ;Computed Field
+projects[commerce_features][version] = 1.0
+projects[commerce_features][subdir] = "contrib"
+
+;Commerce_features
 projects[computed_field][version] = 1.0
 projects[computed_field][subdir] = "contrib"
 
