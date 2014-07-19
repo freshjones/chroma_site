@@ -87,6 +87,16 @@ function chroma_install() {
     // Set this as the administrator role.
     variable_set('user_admin_role', $admin_role->rid);
     
+    //admin menu settings
+    variable_set('admin_menu_tweak_modules', 1);
+    variable_set('admin_menu_tweak_permissions', 1);
+    variable_set('admin_menu_components', array('admin_menu.icon'=>1, 'admin_menu.menu'=>1, 'admin_menu.search'=>0, 'admin_menu.users'=>0, 'admin_menu.account'=>1, 'shortcut.links'=>1) );
+    
+    //enable panels pages
+    variable_set('panels_everywhere_site_template_enabled', 1);
+    variable_set('page_manager_node_view_disabled', 0);
+    variable_set('page_manager_term_view_disabled', 0);
+    
     // Create an editor role
     //$editor_role = new stdClass();
     //$editor_role->name = 'editor';
