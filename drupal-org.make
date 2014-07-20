@@ -329,9 +329,9 @@ projects[chroma_template_defaults][subdir] = "custom"
 ; --------
 projects[] = omega
 
-projects[chroma][type] = "theme"
-projects[chroma][download][type] = "git"
-projects[chroma][download][url] = "https://github.com/freshjones/chroma_omega_subtheme.git"
+projects[chroma_responsive][type] = "theme"
+projects[chroma_responsive][download][type] = "git"
+projects[chroma_responsive][download][url] = "https://github.com/freshjones/chroma_responsive_theme.git"
 
 
 

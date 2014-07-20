@@ -121,7 +121,7 @@ function chroma_install() {
     
     //enable the chroma theme
     $enable = array(
-	    'theme_default' => 'chroma',
+	    'theme_default' => 'chroma_responsive',
 	    'admin_theme' => 'seven',
 	);
 	
