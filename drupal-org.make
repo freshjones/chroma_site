@@ -24,6 +24,10 @@ projects[admin_menu][patch][] = "http://drupal.org/files/issues/admin_menu-remov
 projects[admin_views][version] = 1.3
 projects[admin_views][subdir] = "contrib"
 
+;Advanced Aggregation
+projects[advagg][version] = 2.7
+projects[advagg][subdir] = "contrib"
+
 ;Better Exposed Filters
 projects[better_exposed_filters][version] = 3.0-beta4
 projects[better_exposed_filters][subdir] = "contrib"
@@ -321,10 +325,14 @@ projects[chroma_template_defaults][subdir] = "custom"
 
 
 
-
 ; Themes
 ; --------
 projects[] = omega
+
+projects[chroma][type] = "theme"
+projects[chroma][download][type] = "git"
+projects[chroma][download][url] = "https://github.com/freshjones/chroma_omega_subtheme.git"
+
 
 
 ; Drush

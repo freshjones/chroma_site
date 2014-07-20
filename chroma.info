@@ -138,6 +138,7 @@ dependencies[] = semantic_panels
 
 ; Chroma - performance
 dependencies[] = redis
+dependencies[] = advagg
 
 ; Chroma - rules
 dependencies[] = rules
